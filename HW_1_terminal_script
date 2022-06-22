@@ -1,0 +1,19 @@
+#!/bin/bash
+#Comment
+echo "3. Open any folder"
+cd 1
+echo "4. Create 3 folders"
+mkdir -p F1 F2 F3
+echo "5. Open any folder"
+cd F1
+echo "6. Create 5 files 3 txt 2 json"
+touch 1.txt 2.txt 3.txt 1.json 2.json
+echo "7. Create 3 folders"
+mkdir F1_1 F1_2 F1_3
+echo "8. Directory in"
+ls -la
+echo "Move any 2 files to any directory"
+mv 1.txt 1.json F1_2
+
+echo "go to start dir"
+cd ../
